@@ -1,3 +1,5 @@
+import random
+
 N = 5000
 def take_top(N, metadata_path, output_path): 
     with open(f'{metadata_path}/metadata.txt') as metadata:
